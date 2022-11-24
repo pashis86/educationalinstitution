@@ -49,7 +49,7 @@ const EditPost = () => {
 
     return (
         <article className="article">
-            <h1>Edit Post</h1>
+            <h1>Edit Post, all titles should be filled</h1>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
                     <label>Educational institution Title:</label>
