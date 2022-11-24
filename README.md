@@ -1,7 +1,7 @@
-<h1>Simple Laravel Blog for BIT Students</h1>
+<h1>Sample of Registration in an educational institution WEB application),</h1>
 
 App contains seeders for both admin users and posts generation.
-Copy and rename file '.env.example' to '.env' and setup your application configuration.
+Copy and rename file '.env.1' to '.env' and setup your application configuration.
 
 First run command  `composer install` in order to add dependencies.
 
