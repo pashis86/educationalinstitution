@@ -62,7 +62,7 @@ const EditPost = () => {
                     /> 
                 </div>
                 <div className="mb-3">
-                    <label>Post Content:</label>
+                    <label>Description:</label>
                     <textarea 
                         name="content" 
                         onChange={handleData} 
@@ -72,7 +72,7 @@ const EditPost = () => {
                     </textarea> 
                 </div>
                 <div className="mb-3">
-                    <label>Featured Image:</label>
+                    <label>Featured Image, URL link:</label>
                     <input 
                         type="text" 
                         name="image" 

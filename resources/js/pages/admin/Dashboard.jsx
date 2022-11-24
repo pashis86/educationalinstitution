@@ -40,8 +40,8 @@ const Dashboard = () => {
     return (
         <article className="article">
             <div className="d-flex align-items-center justify-content-between">
-                <h1>Articles list</h1>
-                <Link to="/admin/new" className="btn btn-success">New Article</Link>
+                <h1>Educational institution list</h1>
+                <Link to="/admin/new" className="btn btn-success">Add New</Link>
             </div>
             {data.length > 0 ? 
                 <table className="table table-striped table-hover">
