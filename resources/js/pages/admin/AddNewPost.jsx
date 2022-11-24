@@ -36,10 +36,10 @@ const AddNewPost = () => {
 
     return (
         <article className="article">
-            <h1>New Article</h1>
+            <h1>New Post</h1>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
-                    <label>Post Title:</label>
+                    <label>Educational institution Title:</label>
                     <input 
                         type="text" 
                         name="title" 
@@ -48,7 +48,7 @@ const AddNewPost = () => {
                     /> 
                 </div>
                 <div className="mb-3">
-                    <label>Post Content:</label>
+                    <label>Description:</label>
                     <textarea 
                         name="content" 
                         onChange={handleData} 
@@ -56,7 +56,7 @@ const AddNewPost = () => {
                     ></textarea> 
                 </div>
                 <div className="mb-3">
-                    <label>Featured Image:</label>
+                    <label>Featured Image, URL link:</label>
                     <input 
                         type="text" 
                         name="image" 
