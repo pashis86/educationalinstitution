@@ -49,10 +49,10 @@ const EditPost = () => {
 
     return (
         <article className="article">
-            <h1>Edit Article</h1>
+            <h1>Edit Post</h1>
             <form onSubmit={handleSubmit}>
                 <div className="mb-3">
-                    <label>Post Title:</label>
+                    <label>Educational institution Title:</label>
                     <input 
                         type="text" 
                         name="title" 

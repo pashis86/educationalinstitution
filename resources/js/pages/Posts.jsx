@@ -25,8 +25,8 @@ const Posts = () => {
                 <div className="row justify-content-center">
                     <div className="col-lg-7 text-center">
                         <div className="section-title">
-                            <h2>Latest News</h2>
-                            <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites</p>
+                            <h2>Latest educational institutions</h2>
+                            <p>Here you can find the latest educational institutions for your children</p>
                         </div>
                     </div>
                 </div>
